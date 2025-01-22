@@ -83,3 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Adiciona o event listener para o botão "Chutar"
     document.getElementById('botaoChutar').addEventListener('click', verificarChute);
 });
+
+
+
+//Comentario test para git commit -m "primeiroAcesso"
