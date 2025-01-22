@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Adicionais /////////////////////////////////////////////////
     function verificarAlert() {
-        alert('Eu te amo JS');
+        alert('Eu te amo JavaS');
     }
 
     // Certifique-se de que a função verificarChute esteja disponível globalmente
@@ -86,4 +86,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-//Comentario test para git commit -m "primeiroAcesso"
+//Comentario test para git commit -m "primeiroAcesso"git 
