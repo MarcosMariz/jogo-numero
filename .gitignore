@@ -1,0 +1,6 @@
+Com ele conseguimos designar quais arquivos e pastas não devem ser enviados para o repositório remoto.
+Exemplo:
+
+temp/ (arquivo temporário)
+*.CSS (todos os arquivos CSS)
+arquivo.txt (arquivo específico)
