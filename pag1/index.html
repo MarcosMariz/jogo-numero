@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <title>JS Game</title>
 </head>
 
@@ -22,19 +22,18 @@
                     <h1></h1>
                     <p></p>
                 </div>
-                <input type="number" min="1" max="10" class="container__input">
+                <input type="number" min="1" max="10" step="1" class="container__input" aria-label="Insira um número entre 1 e 10">
                 <div class="chute container__botoes">
-                    <button id="botaoChutar" class="container__botao">Chutar</button>
-                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
-                    <button onclick="verificarAlert()" class="container__botao">Alerta</button>
-                    <button onclick="window.location.href='../pag2/2index.html'" class="container__botao">Página 2</button>
+                    <button id="botaoChutar" class="container__botao" aria-label="Clique para chutar">Chutar</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled aria-label="Clique para reiniciar o jogo">Novo jogo</button>
+                    <button onclick="verificarAlert()" class="container__botao" aria-label="Clique para mostrar um alerta">Alerta</button>
                 </div>
             </div>
-            <img src="../img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+            <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
         </div>
     </div>
 
-    <script src="../app.js" defer></script>
+    <script src="app.js" defer></script>
 </body>
 
 </html>
